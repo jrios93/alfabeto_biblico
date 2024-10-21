@@ -1,0 +1,421 @@
+{
+  "A": {
+    "nombres_biblicos": ["Aarón", "Abraham", "Ana"],
+    "audio": {
+      "letra": "assets/audio/a/letter_a.mp3",
+      "nombres": [
+        "assets/audio/a/abraham.mp3",
+        "assets/audio/a/abraham_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/abraham.png",
+    "historias": [
+      "Aarón fue el hermano de Moisés y el primer sumo sacerdote.",
+      "Abraham es conocido como el padre de muchas naciones.",
+      "Ana fue la madre de Samuel, un gran profeta."
+    ]
+  },
+  "B": {
+    "nombres_biblicos": ["Bela", "Bernabé", "Betsabé"],
+    "audio": {
+      "letra": "assets/audio/b/letter_b.mp3",
+      "nombres": [
+        "assets/audio/b/bernabe.mp3",
+        "assets/audio/b/bernabe_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/bernabe.png",
+    "historias": [
+      "Bela fue un rey de Edom.",
+      "Bernabé fue un compañero de Pablo en la misión.",
+      "Betsabé fue la esposa de David."
+    ]
+  },
+  "C": {
+    "nombres_biblicos": ["Caín", "César", "Cristo"],
+    "audio": {
+      "letra": "assets/audio/c/letter_c.mp3",
+      "nombres": [
+        "assets/audio/c/cristo.mp3",
+        "assets/audio/c/cristo_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/cristo.png",
+    "historias": [
+      "Caín fue el primer hijo de Adán y Eva.",
+      "César era un título usado por los emperadores romanos.",
+      "Cristo es nuestro señor y salvador."
+    ]
+  },
+  "D": {
+    "nombres_biblicos": ["David", "Daniel", "Debora"],
+    "audio": {
+      "letra": "assets/audio/d/letter_d.mp3",
+      "nombres": [
+        "assets/audio/d/david.mp3",
+        "assets/audio/d/david_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/david.png",
+    "historias": [
+      "David fue el rey de Israel y un gran guerrero.",
+      "Daniel fue un profeta que interpretó sueños.",
+      "Debora fue una profetisa y jueza de Israel."
+    ]
+  },
+  "E": {
+    "nombres_biblicos": ["Elías", "Esther", "Ezequiel"],
+    "audio": {
+      "letra": "assets/audio/e/letter_e.mp3",
+      "nombres": [
+        "assets/audio/e/elias.mp3",
+        "assets/audio/e/elias_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/elias.png",
+    "historias": [
+      "Elías fue un profeta que desafió a los profetas de Baal.",
+      "Esther fue una reina que salvó a su pueblo.",
+      "Ezequiel fue un profeta que tuvo visiones."
+    ]
+  },
+  "F": {
+    "nombres_biblicos": ["Felipe", "Faraón", "Filemón"],
+    "audio": {
+      "letra": "assets/audio/f/letter_f.mp3",
+      "nombres": [
+        "assets/audio/f/felipe.mp3",
+        "assets/audio/f/felipe_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/felipe.png",
+    "historias": [
+      "Felipe fue uno de los apóstoles.",
+      "Faraón fue el rey de Egipto en el tiempo de Moisés.",
+      "Filemón fue un amigo de Pablo."
+    ]
+  },
+  "G": {
+    "nombres_biblicos": ["Gedeón", "Goliat", "Gálatas"],
+    "audio": {
+      "letra": "assets/audio/g/letter_g.mp3",
+      "nombres": [
+        "assets/audio/g/goliat.mp3",
+        "assets/audio/g/goliat_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/goliat.png",
+    "historias": [
+      "Gedeón fue un juez que liberó a Israel.",
+      "Goliat fue un gigante derrotado por David.",
+      "Gálatas es una carta escrita por Pablo."
+    ]
+  },
+  "H": {
+    "nombres_biblicos": ["Habacuc ", "Hagar", "Héctor"],
+    "audio": {
+      "letra": "assets/audio/h/letter_h.mp3",
+      "nombres": [
+        "assets/audio/h/habacuc.mp3",
+        "assets/audio/h/habacuc_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/habacuc.png",
+    "historias": [
+      "Habacuc fue un profeta que confió en la justicia de Dios pese a la adversidad.",
+      "Hagar fue la sierva de Sara, madre de Ismael.",
+      "Héctor no aparece en la Biblia, pero es un nombre utilizado."
+    ]
+  },
+  "I": {
+    "nombres_biblicos": ["Isaac", "Ismael", "Iglesia"],
+    "audio": {
+      "letra": "assets/audio/i/letter_i.mp3",
+      "nombres": [
+        "assets/audio/i/iglesia.mp3",
+        "assets/audio/i/iglesia_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/iglesia.png",
+    "historias": [
+      "Isaac fue el hijo de Abraham.",
+      "Ismael fue el hijo de Abraham con Hagar.",
+      "La iglesia es la casa de Dios para los creyentes en Cristo."
+    ]
+  },
+  "J": {
+    "nombres_biblicos": ["Jacob", "Juan", "José"],
+    "audio": {
+      "letra": "assets/audio/j/letter_j.mp3",
+      "nombres": ["assets/audio/j/juan.mp3", "assets/audio/j/juan_descrip.mp3"]
+    },
+    "imagen": "assets/img/juan.png",
+    "historias": [
+      "Jacob fue el padre de las doce tribus de Israel.",
+      "Juan fue el discípulo amado de Jesús.",
+      "José fue el hijo de Jacob vendido por sus hermanos."
+    ]
+  },
+  "K": {
+    "nombres_biblicos": ["Kohath", "Kefas", "Kalam"],
+    "audio": {
+      "letra": "assets/audio/k/letter_k.mp3",
+      "nombres": [
+        "assets/audio/k/kohath.mp3",
+        "assets/audio/k/kohath_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/hohath.png",
+    "historias": [
+      "Kohath, hijo de Leví, fue responsable de los objetos sagrados del tabernáculo.",
+      "Kefas es otro nombre para Pedro.",
+      "Kalam no aparece en la Biblia, pero es un nombre común."
+    ]
+  },
+  "L": {
+    "nombres_biblicos": ["Lucas", "Lázaro", "León"],
+    "audio": {
+      "letra": "assets/audio/l/letter_l.mp3",
+      "nombres": [
+        "assets/audio/l/lazaro.mp3",
+        "assets/audio/l/lazaro_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/lazaro.png",
+    "historias": [
+      "Lázaro fue un hombre que volvió a la vida gracias a nuestro Señor Jesucristogi",
+      "Lucas fue el autor del Evangelio de Lucas.",
+      "León se refiere a Jesús como el León de Judá."
+    ]
+  },
+  "M": {
+    "nombres_biblicos": ["Moisés", "María", "Mateo"],
+    "audio": {
+      "letra": "assets/audio/m/letter_m.mp3",
+      "nombres": [
+        "assets/audio/m/moises.mp3",
+        "assets/audio/m/moises_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/moises.png",
+    "historias": [
+      "Moisés liberó al pueblo de Israel de la esclavitud.",
+      "María fue la madre de Jesús.",
+      "Mateo fue uno de los apóstoles."
+    ]
+  },
+  "N": {
+    "nombres_biblicos": ["Noé", "Natán", "Nadie"],
+    "audio": {
+      "letra": "assets/audio/n/letter_n.mp3",
+      "nombres": ["assets/audio/n/noe.mp3", "assets/audio/n/noe_descrip.mp3"]
+    },
+    "imagen": "assets/img/noe.png",
+    "historias": [
+      "Noé obedeciendo a Dios construyó un arca para salvar a su familia y a los animales.",
+      "Natán fue un profeta que aconsejó a David.",
+      "Nadie no es un personaje bíblico, pero representa a todos."
+    ]
+  },
+  "O": {
+    "nombres_biblicos": ["Oseas", "Oreb", "Obadías"],
+    "audio": {
+      "letra": "assets/audio/o/letter_o.mp3",
+      "nombres": [
+        "assets/audio/o/oseas.mp3",
+        "assets/audio/o/oseas_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/oseas.png",
+    "historias": [
+      "Oseas fue un profeta que mostró el amor fiel de Dios hacia Su pueblo, a pesar de su desobediencia.",
+      "Oreb fue un rey que luchó contra Israel.",
+      "Obadías es un libro profético del Antiguo Testamento."
+    ]
+  },
+  "P": {
+    "nombres_biblicos": ["Pablo", "Pedro", "Priscila"],
+    "audio": {
+      "letra": "assets/audio/p/letter_p.mp3",
+      "nombres": [
+        "assets/audio/p/pablo.mp3",
+        "assets/audio/p/pablo_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/pablo.png",
+    "historias": [
+      "Pablo fue un apóstol que llevó el evangelio a los gentiles y escribió muchas cartas del Nuevo Testamento.",
+      "Pedro fue uno de los primeros discípulos de Jesús.",
+      "Priscila fue una compañera de Pablo en el ministerio."
+    ]
+  },
+  "Q": {
+    "nombres_biblicos": ["Quelión", "Qumran", "Quej"],
+    "audio": {
+      "letra": "assets/audio/q/letter_q.mp3",
+      "nombres": [
+        "assets/audio/q/quelion.mp3",
+        "assets/audio/q/quelion_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/quelion.png",
+    "historias": [
+      "Quis fue un rey mencionado en la Biblia.",
+      "Qumran es conocido por los Manuscritos del Mar Muerto.",
+      "Quej no es un personaje bíblico conocido."
+    ]
+  },
+  "R": {
+    "nombres_biblicos": ["Ruth", "Roboam", "Rebeca"],
+    "audio": {
+      "letra": "assets/audio/r/letter_r.mp3",
+      "nombres": ["assets/audio/r/ruth.mp3", "assets/audio/r/ruth_descrip.mp3"]
+    },
+    "imagen": "assets/img/ruth.png",
+    "historias": [
+      "Ruth es conocida por su lealtad a Noemí y bisabuela del rey David",
+      "Roboam fue el hijo de Salomón.",
+      "Rebeca fue la esposa de Isaac."
+    ]
+  },
+  "S": {
+    "nombres_biblicos": ["Salomón", "Samuel", "Sofonías"],
+    "audio": {
+      "letra": "assets/audio/s/letter_s.mp3",
+      "nombres": [
+        "assets/audio/s/salomon.mp3",
+        "assets/audio/s/salomon_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/salomon.png",
+    "historias": [
+      "Salomón fue un rey sabio que construyó el templo de Dios y escribió proverbios",
+      "Samuel fue un profeta y juez de Israel.",
+      "Sofonías es un libro profético en la Biblia."
+    ]
+  },
+  "T": {
+    "nombres_biblicos": ["Tito", "Tobías", "Tamar"],
+    "audio": {
+      "letra": "assets/audio/t/letter_t.mp3",
+      "nombres": ["assets/audio/t/tito.mp3", "assets/audio/t/tito_descrip.mp3"]
+    },
+    "imagen": "assets/img/tito.png",
+    "historias": [
+      "Tito fue un fiel colaborador de Pablo y ayudó a fortalecer las iglesias",
+      "Tobías es un personaje del libro de Tobit.",
+      "Tamar fue la nuera de Judá."
+    ]
+  },
+  "U": {
+    "nombres_biblicos": ["Urías ", "Uri", "Urbano"],
+    "audio": {
+      "letra": "assets/audio/u/letter_u.mp3",
+      "nombres": [
+        "assets/audio/u/urias.mp3",
+        "assets/audio/u/urias_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/urias.png",
+    "historias": [
+      "Uriah fue el esposo de Betsabé.",
+      "Uri fue un líder en el tiempo de Moisés.",
+      "Urbano es mencionado en el Nuevo Testamento."
+    ]
+  },
+  "V": {
+    "nombres_biblicos": ["Vashti", "Vesubio", "Victor"],
+    "audio": {
+      "letra": "assets/audio/v/letter_v.mp3",
+      "nombres": [
+        "assets/audio/v/vashti.mp3",
+        "assets/audio/v/vashti_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/vashti.png",
+    "historias": [
+      "Vashti fue una reina valiente que se negó a desobedecer a su rey.",
+      "Vesubio no aparece en la Biblia.",
+      "Victor es un nombre que puede referirse a varios."
+    ]
+  },
+  "W": {
+    "nombres_biblicos": ["Winsdon", "Wendy", "Wilfredo"],
+    "audio": {
+      "letra": "assets/audio/w/letter_w.mp3",
+      "nombres": [
+        "assets/audio/w/wisdom.mp3",
+        "assets/audio/w/wisdom_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/wisdom.png",
+    "historias": [
+      "Sabiduría en español es el conocimiento que Dios nos da para tomar buenas decisiones.",
+      "Wendy tampoco es un personaje bíblico.",
+      "Wilfredo es un nombre común."
+    ]
+  },
+  "X": {
+    "nombres_biblicos": ["Xilófono", "Ximen", "Xavier"],
+    "audio": {
+      "letra": "assets/audio/x/letter_x.mp3",
+      "nombres": [
+        "assets/audio/x/xilofono.mp3",
+        "assets/audio/x/xilofono_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/xilofono.png",
+    "historias": [
+      "El xilófono nos invita a alabar a Dios con alegría",
+      "Ximen no es un nombre común en la Biblia.",
+      "Xavier es un nombre que se ha popularizado."
+    ]
+  },
+  "Y": {
+    "nombres_biblicos": ["Yabal", "Yahvé", "Yohanan"],
+    "audio": {
+      "letra": "assets/audio/y/letter_y.mp3",
+      "nombres": [
+        "assets/audio/y/yabal.mp3",
+        "assets/audio/y/yabal_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/yabal.png",
+    "historias": [
+      "Yabal fue el primer criador de ganado y un pionero en la vida nómada.",
+      "Yahvé es el nombre de Dios en la tradición hebrea.",
+      "Yohanan es el nombre hebreo para Juan."
+    ]
+  },
+  "Z": {
+    "nombres_biblicos": ["Zacarías", "Zoe", "Zafiro"],
+    "audio": {
+      "letra": "assets/audio/z/letter_z.mp3",
+      "nombres": [
+        "assets/audio/z/zacarias.mp3",
+        "assets/audio/z/zacarias_descrip.mp3"
+      ]
+    },
+    "imagen": "assets/img/zacarias.png",
+    "historias": [
+      "Zacarías fue el profeta que anunció esperanza y la venida del Mesías al pueblo de Israel.",
+      "Zoe es un nombre que significa vida.",
+      "Zafiro es una piedra preciosa mencionada en la Biblia."
+    ]
+  },
+  "Him": {
+    "nombres_biblicos": ["Himnos"],
+    "audio": {
+      "letra": "assets/audio/himno/himnos.mp3",
+      "nombres": [
+        "assets/audio/himno/cuan_grande_es_el.mp3",
+        "assets/audio/himno/su_gracia_es_mayor.mp3",
+        "assets/audio/himno/cristo_buscnado_obreros.mp3",
+        "assets/audio/himno/usa_mi_vida.mp3",
+        "assets/audio/himno/elvive.mp3"
+      ]
+    },
+    "imagen": "assets/img/himnario.jpg",
+    "historias": ["Himnos que agradan al señor."]
+  }
+}
