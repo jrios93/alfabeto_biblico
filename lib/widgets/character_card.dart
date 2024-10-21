@@ -63,7 +63,7 @@ class CharacterCard extends ConsumerWidget {
           color: Colors.white,
           fontSize: fontSize,
           fontWeight: FontWeight.bold,
-          shadows: [
+          shadows: const [
             Shadow(
               blurRadius: 2.0,
               color: Colors.black,
@@ -125,7 +125,7 @@ class CharacterCard extends ConsumerWidget {
 
   Widget _buildProgressIndicator(
       bool isCurrentCharacter, AudioPlaybackState audioState) {
-    if (!isCurrentCharacter) return SizedBox.shrink();
+    if (!isCurrentCharacter) return const SizedBox.shrink();
     return Positioned(
       left: 0,
       right: 0,
@@ -133,7 +133,7 @@ class CharacterCard extends ConsumerWidget {
       child: LinearProgressIndicator(
         value: (audioState.audioIndex + 1) / (character.nameAudios.length + 1),
         backgroundColor: Colors.white.withOpacity(0.3),
-        valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+        valueColor: const AlwaysStoppedAnimation<Color>(Colors.white),
       ),
     );
   }

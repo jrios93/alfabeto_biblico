@@ -62,6 +62,7 @@ flutter:
   assets:
     - assets/data/data.json
     - assets/img/
+    - assets/icon/
     - assets/audio/a/
     - assets/audio/b/
     - assets/audio/c/
