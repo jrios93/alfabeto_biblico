@@ -6,12 +6,18 @@ import '../services/audio_service.dart';
 class CharacterCard extends ConsumerWidget {
   final BibleCharacter character;
   final Color cardColor;
+  final Function(String) onLetterSelected;
+  final bool isGameMode;
+  final bool isHighlighted;
 
   const CharacterCard({
-    super.key,
+    Key? key,
     required this.character,
     required this.cardColor,
-  });
+    required this.onLetterSelected,
+    this.isGameMode = false,
+    this.isHighlighted = false,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -20,13 +26,22 @@ class CharacterCard extends ConsumerWidget {
     final isCurrentCharacter = audioState.characterId == character.letter;
 
     return GestureDetector(
-      onTap: () => _playNextAudio(audioService),
+      onTap: () {
+        if (isGameMode) {
+          onLetterSelected(character.letter);
+        } else {
+          _playNextAudio(audioService);
+        }
+      },
       child: Card(
         elevation: 8,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15),
+          side: isHighlighted
+              ? BorderSide(color: Colors.yellow, width: 3)
+              : BorderSide.none,
         ),
-        color: cardColor,
+        color: isHighlighted ? cardColor.withOpacity(0.7) : cardColor,
         child: LayoutBuilder(
           builder: (context, constraints) {
             final fontSize = constraints.maxWidth * 0.3;
@@ -34,8 +49,10 @@ class CharacterCard extends ConsumerWidget {
               children: [
                 _buildLetterText(fontSize),
                 _buildCharacterImage(constraints),
-                _buildAudioControls(isCurrentCharacter, audioState, fontSize),
-                _buildProgressIndicator(isCurrentCharacter, audioState),
+                if (!isGameMode)
+                  _buildAudioControls(isCurrentCharacter, audioState, fontSize),
+                if (!isGameMode)
+                  _buildProgressIndicator(isCurrentCharacter, audioState),
               ],
             );
           },
@@ -47,10 +64,6 @@ class CharacterCard extends ConsumerWidget {
   void _playNextAudio(AudioService audioService) {
     final allAudios = [character.letterAudio, ...character.nameAudios];
     audioService.playNextAudio(character.letter, allAudios);
-  }
-
-  String _removeAssetPrefix(String path) {
-    return path.startsWith('assets/') ? path.substring(7) : path;
   }
 
   Widget _buildLetterText(double fontSize) {
@@ -83,6 +96,7 @@ class CharacterCard extends ConsumerWidget {
         character.image,
         fit: BoxFit.contain,
         height: constraints.maxHeight * 0.6,
+        width: constraints.maxWidth * 0.6,
         semanticLabel: 'Image of ${character.letter}',
       ),
     );
@@ -94,6 +108,7 @@ class CharacterCard extends ConsumerWidget {
       right: 10,
       top: 10,
       child: Row(
+        mainAxisSize: MainAxisSize.min,
         children: [
           if (isCurrentCharacter && audioState.isPlaying)
             Icon(

@@ -28,12 +28,13 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  animated_text_kit: ^4.2.2
   audioplayers: ^6.1.0
+  confetti: ^0.8.0
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
   flutter_riverpod: ^2.5.3
-
 
 dev_dependencies:
   flutter_lints: ^4.0.0
@@ -90,7 +91,37 @@ flutter:
     - assets/audio/y/
     - assets/audio/z/
     - assets/audio/himno/
+    - assets/audio/canciones/
     - assets/audio/
+    - assets/audio/busca_letra.mp3
+    - assets/audio/correcto.mp3
+    - assets/audio/incorrecto.mp3
+    - assets/audio/a/letter_a.mp3
+    - assets/audio/b/letter_b.mp3
+    - assets/audio/c/letter_c.mp3
+    - assets/audio/d/letter_d.mp3
+    - assets/audio/e/letter_e.mp3
+    - assets/audio/f/letter_f.mp3
+    - assets/audio/g/letter_g.mp3
+    - assets/audio/h/letter_h.mp3
+    - assets/audio/i/letter_i.mp3
+    - assets/audio/j/letter_j.mp3
+    - assets/audio/k/letter_k.mp3
+    - assets/audio/l/letter_l.mp3
+    - assets/audio/m/letter_m.mp3
+    - assets/audio/n/letter_n.mp3
+    - assets/audio/o/letter_o.mp3
+    - assets/audio/p/letter_p.mp3
+    - assets/audio/q/letter_q.mp3
+    - assets/audio/r/letter_r.mp3
+    - assets/audio/s/letter_s.mp3
+    - assets/audio/t/letter_t.mp3
+    - assets/audio/u/letter_u.mp3
+    - assets/audio/v/letter_v.mp3
+    - assets/audio/w/letter_w.mp3
+    - assets/audio/x/letter_x.mp3
+    - assets/audio/y/letter_y.mp3
+    - assets/audio/z/letter_z.mp3
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
   # For details regarding adding assets from package dependencies, see

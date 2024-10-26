@@ -4,7 +4,7 @@
     "audio": {
       "letra": "assets/audio/a/letter_a.mp3",
       "nombres": [
-        "assets/audio/a/abraham.mp3",
+        "assets/audio/a/letter_a_name.mp3",
         "assets/audio/a/abraham_descrip.mp3"
       ]
     },
@@ -20,7 +20,7 @@
     "audio": {
       "letra": "assets/audio/b/letter_b.mp3",
       "nombres": [
-        "assets/audio/b/bernabe.mp3",
+        "assets/audio/b/letter_b_name.mp3",
         "assets/audio/b/bernabe_descrip.mp3"
       ]
     },
@@ -36,7 +36,7 @@
     "audio": {
       "letra": "assets/audio/c/letter_c.mp3",
       "nombres": [
-        "assets/audio/c/cristo.mp3",
+        "assets/audio/c/letter_c_name.mp3",
         "assets/audio/c/cristo_descrip.mp3"
       ]
     },
@@ -52,7 +52,7 @@
     "audio": {
       "letra": "assets/audio/d/letter_d.mp3",
       "nombres": [
-        "assets/audio/d/david.mp3",
+        "assets/audio/d/letter_d_name.mp3",
         "assets/audio/d/david_descrip.mp3"
       ]
     },
@@ -68,7 +68,7 @@
     "audio": {
       "letra": "assets/audio/e/letter_e.mp3",
       "nombres": [
-        "assets/audio/e/elias.mp3",
+        "assets/audio/e/letter_e_name.mp3",
         "assets/audio/e/elias_descrip.mp3"
       ]
     },
@@ -84,7 +84,7 @@
     "audio": {
       "letra": "assets/audio/f/letter_f.mp3",
       "nombres": [
-        "assets/audio/f/felipe.mp3",
+        "assets/audio/f/letter_f_name.mp3",
         "assets/audio/f/felipe_descrip.mp3"
       ]
     },
@@ -100,7 +100,7 @@
     "audio": {
       "letra": "assets/audio/g/letter_g.mp3",
       "nombres": [
-        "assets/audio/g/goliat.mp3",
+        "assets/audio/g/letter_g_name.mp3",
         "assets/audio/g/goliat_descrip.mp3"
       ]
     },
@@ -116,7 +116,7 @@
     "audio": {
       "letra": "assets/audio/h/letter_h.mp3",
       "nombres": [
-        "assets/audio/h/habacuc.mp3",
+        "assets/audio/h/letter_h_name.mp3",
         "assets/audio/h/habacuc_descrip.mp3"
       ]
     },
@@ -132,7 +132,7 @@
     "audio": {
       "letra": "assets/audio/i/letter_i.mp3",
       "nombres": [
-        "assets/audio/i/iglesia.mp3",
+        "assets/audio/i/letter_i_name.mp3",
         "assets/audio/i/iglesia_descrip.mp3"
       ]
     },
@@ -147,7 +147,10 @@
     "nombres_biblicos": ["Jacob", "Juan", "José"],
     "audio": {
       "letra": "assets/audio/j/letter_j.mp3",
-      "nombres": ["assets/audio/j/juan.mp3", "assets/audio/j/juan_descrip.mp3"]
+      "nombres": [
+        "assets/audio/j/letter_j_name.mp3",
+        "assets/audio/j/juan_descrip.mp3"
+      ]
     },
     "imagen": "assets/img/juan.png",
     "historias": [
@@ -161,7 +164,7 @@
     "audio": {
       "letra": "assets/audio/k/letter_k.mp3",
       "nombres": [
-        "assets/audio/k/kohath.mp3",
+        "assets/audio/k/letter_k_name.mp3",
         "assets/audio/k/kohath_descrip.mp3"
       ]
     },
@@ -177,7 +180,7 @@
     "audio": {
       "letra": "assets/audio/l/letter_l.mp3",
       "nombres": [
-        "assets/audio/l/lazaro.mp3",
+        "assets/audio/l/letter_l_name.mp3",
         "assets/audio/l/lazaro_descrip.mp3"
       ]
     },
@@ -193,7 +196,7 @@
     "audio": {
       "letra": "assets/audio/m/letter_m.mp3",
       "nombres": [
-        "assets/audio/m/moises.mp3",
+        "assets/audio/m/letter_m_name.mp3",
         "assets/audio/m/moises_descrip.mp3"
       ]
     },
@@ -208,7 +211,10 @@
     "nombres_biblicos": ["Noé", "Natán", "Nadie"],
     "audio": {
       "letra": "assets/audio/n/letter_n.mp3",
-      "nombres": ["assets/audio/n/noe.mp3", "assets/audio/n/noe_descrip.mp3"]
+      "nombres": [
+        "assets/audio/n/letter_n_name.mp3",
+        "assets/audio/n/noe_descrip.mp3"
+      ]
     },
     "imagen": "assets/img/noe.png",
     "historias": [
@@ -222,7 +228,7 @@
     "audio": {
       "letra": "assets/audio/o/letter_o.mp3",
       "nombres": [
-        "assets/audio/o/oseas.mp3",
+        "assets/audio/o/letter_o_name.mp3",
         "assets/audio/o/oseas_descrip.mp3"
       ]
     },
@@ -238,7 +244,7 @@
     "audio": {
       "letra": "assets/audio/p/letter_p.mp3",
       "nombres": [
-        "assets/audio/p/pablo.mp3",
+        "assets/audio/p/letter_p_name.mp3",
         "assets/audio/p/pablo_descrip.mp3"
       ]
     },
@@ -254,7 +260,7 @@
     "audio": {
       "letra": "assets/audio/q/letter_q.mp3",
       "nombres": [
-        "assets/audio/q/quelion.mp3",
+        "assets/audio/q/letter_q_name.mp3",
         "assets/audio/q/quelion_descrip.mp3"
       ]
     },
@@ -269,7 +275,10 @@
     "nombres_biblicos": ["Ruth", "Roboam", "Rebeca"],
     "audio": {
       "letra": "assets/audio/r/letter_r.mp3",
-      "nombres": ["assets/audio/r/ruth.mp3", "assets/audio/r/ruth_descrip.mp3"]
+      "nombres": [
+        "assets/audio/r/letter_r_name.mp3",
+        "assets/audio/r/ruth_descrip.mp3"
+      ]
     },
     "imagen": "assets/img/ruth.png",
     "historias": [
@@ -283,7 +292,7 @@
     "audio": {
       "letra": "assets/audio/s/letter_s.mp3",
       "nombres": [
-        "assets/audio/s/salomon.mp3",
+        "assets/audio/s/letter_s_name.mp3",
         "assets/audio/s/salomon_descrip.mp3"
       ]
     },
@@ -298,7 +307,10 @@
     "nombres_biblicos": ["Tito", "Tobías", "Tamar"],
     "audio": {
       "letra": "assets/audio/t/letter_t.mp3",
-      "nombres": ["assets/audio/t/tito.mp3", "assets/audio/t/tito_descrip.mp3"]
+      "nombres": [
+        "assets/audio/t/letter_t_name.mp3",
+        "assets/audio/t/tito_descrip.mp3"
+      ]
     },
     "imagen": "assets/img/tito.png",
     "historias": [
@@ -312,7 +324,7 @@
     "audio": {
       "letra": "assets/audio/u/letter_u.mp3",
       "nombres": [
-        "assets/audio/u/urias.mp3",
+        "assets/audio/u/letter_u_name.mp3",
         "assets/audio/u/urias_descrip.mp3"
       ]
     },
@@ -328,7 +340,7 @@
     "audio": {
       "letra": "assets/audio/v/letter_v.mp3",
       "nombres": [
-        "assets/audio/v/vashti.mp3",
+        "assets/audio/v/letter_v_name.mp3",
         "assets/audio/v/vashti_descrip.mp3"
       ]
     },
@@ -344,7 +356,7 @@
     "audio": {
       "letra": "assets/audio/w/letter_w.mp3",
       "nombres": [
-        "assets/audio/w/wisdom.mp3",
+        "assets/audio/w/letter_w_name.mp3",
         "assets/audio/w/wisdom_descrip.mp3"
       ]
     },
@@ -360,7 +372,7 @@
     "audio": {
       "letra": "assets/audio/x/letter_x.mp3",
       "nombres": [
-        "assets/audio/x/xilofono.mp3",
+        "assets/audio/x/letter_x_name.mp3",
         "assets/audio/x/xilofono_descrip.mp3"
       ]
     },
@@ -376,7 +388,7 @@
     "audio": {
       "letra": "assets/audio/y/letter_y.mp3",
       "nombres": [
-        "assets/audio/y/yabal.mp3",
+        "assets/audio/y/letter_y_name.mp3",
         "assets/audio/y/yabal_descrip.mp3"
       ]
     },
@@ -392,7 +404,7 @@
     "audio": {
       "letra": "assets/audio/z/letter_z.mp3",
       "nombres": [
-        "assets/audio/z/zacarias.mp3",
+        "assets/audio/z/letter_z_name.mp3",
         "assets/audio/z/zacarias_descrip.mp3"
       ]
     },
@@ -417,5 +429,19 @@
     },
     "imagen": "assets/img/himnario.jpg",
     "historias": ["Himnos que agradan al señor."]
+  },
+  "Song": {
+    "nombres_biblicos": ["Canciones"],
+    "audio": {
+      "letra": "assets/audio/canciones/canciones.mp3",
+      "nombres": [
+        "assets/audio/canciones/levantate.mp3",
+        "assets/audio/canciones/meama.mp3",
+        "assets/audio/canciones/prudente.mp3",
+        "assets/audio/canciones/zaqueo.mp3"
+      ]
+    },
+    "imagen": "assets/img/canciones.png",
+    "historias": ["Canciones para niños."]
   }
 }

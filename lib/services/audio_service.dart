@@ -96,6 +96,9 @@ class AudioService {
       _ref
           .read(audioPlaybackStateProvider.notifier)
           .updateState(characterId, nextIndex, true);
+
+      // Esperar a que el audio termine de reproducirse
+      await _audioPlayer.onPlayerComplete.first;
     } catch (e) {
       print('Error in playNextAudio: $e');
       _ref
@@ -104,7 +107,7 @@ class AudioService {
     }
   }
 
-  Future<void> stopAudio() async {
+  Future<void> stopAllAudio() async {
     await _audioPlayer.stop();
     _ref.read(audioPlaybackStateProvider.notifier).updateState('', 0, false);
   }
